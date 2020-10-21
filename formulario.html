@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/fontello.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <header>
+        <div class="contenedor">
+            <form action="guardar.php" method="POST">
+            <h1 class="icon-emo-devil">my pagina</h1>
+            <input type="checkbox" id="menu-bar">
+            <label class="icon-menu" for="menu-bar"></label> 
+            <nav class="menu">
+                <a href="index.html">Inicio</a>
+                <a href="tarjetas.html">Tarjetas</a>
+                <a href="blog.html">Blog</a>
+                <a href="formulario.html">Formulario</a>
+            </nav>
+        </div>
+     
+        <footer>
+            
+            <div class="contenedor">
+                <p class="copy">Gustavo Jesus Soto Cabello &copy; 2020</p>
+                <div class="sociales">
+                <a class="icon-facebook-official" href="https://www.facebook.com/tavito.sotoc/" target="blank"></a>
+                <a class="icon-twitter" href="https://twitter.com/GustavoSC0311"target="blank"></a>
+                <a class="icon-instagram" href="https://www.instagram.com/gustavosc0311/"target="blank"></a>
+                <a class="icon-googleplus" href="https://myaccount.google.com/?utm_source=OGB&tab=mk&utm_medium=act&pli=1&gar=1"target="blank"></a>
+                </div>
+            </div>
+        </footer>
+        <div class="form">
+			<form action="guardar.php" method="POST">
+				<p>Nombre</p>
+				<label for="nombre">Su nombre</label>
+				<br>
+				<input type="text" name="nombre" placeholder="Nombre" required>
+				<p>Correo</p>
+				<label for="correo">Direccion De Correo</label>
+				<br>
+				<input type="email" name="correo" placeholder="alguien@algo.com" required>
+				<p>Mensaje</p>
+				<label for="mensaje">Su Mensaje</label>
+				<br>
+				<textarea name="mensaje" placeholder="Mensaje" required></textarea>
+				<br>
+				<br>
+				<input type="submit" value="Enviar">
+            </form>
+        </div>
+     </header>
+     
